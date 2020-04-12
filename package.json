@@ -1,0 +1,16 @@
+{
+  "name": "pork-votifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "votifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dayjs": "^1.8.24",
+    "nanoexpress": "^2.0.0",
+    "node-rsa": "^1.0.8"
+  }
+}
