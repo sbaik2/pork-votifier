@@ -15,6 +15,7 @@ const votifier = require('./lib/votifier.js');
 
 
 app.post('/send', (req, res) => {
+    // console.log(req.body);
     if (!req.body || !req.body.host || !req.body.port || !req.body.key || !req.body.username || !req.body.user_ip) {
         console.log(`${dayjs().format('YYYY-MM-DD HH:mm:ss').padEnd(24)}${req.body.host}:${req.body.port} INVALID FORMAT`);
         return res.send({ status: 'fail' });
